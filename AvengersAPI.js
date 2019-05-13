@@ -2,7 +2,7 @@ class AvengersAPI {
     constructor() {
         console.log('whoa, we made it');
 
-        this.heroesAndVillians = require('./heroesAndVillians');
+        this.heroesAndVillians = require('./heroesAndVillians').all;
     }
 
     /**

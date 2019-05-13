@@ -40,4 +40,4 @@ let heroesAndVillians = [
         power: 85
 }];
 
-module.exports = heroesAndVillians;
+module.exports.all = heroesAndVillians;
