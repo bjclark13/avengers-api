@@ -1,28 +1,16 @@
 class AvengersAPI {
     constructor() {
-        console.log('whoa, we made it');
-
-        this.heroesAndVillians = require('./heroesAndVillians').all;
+        // Hint: require and set this. 
+        // something to be the array in heroesAndVillians.js
     }
 
     /**
+     * Hint: you'll want to use Array.filter and Array.concat 
+     * as well as String.indexOf() for searching a string for text
      * 
      * @param {*} params Object of parameters to search by. Can be name, type, powerGreaterThan, or powerLessThan.
      */
     searchForAvengers( params ) {
-        // For now, just test that we can access heroesAndVillians
-        return this.heroesAndVillians[0];
-
-
-        // let results = [];
-
-        // if ( params.s ) {
-        //     results = results.concat(this.heroesAndVillians.filter((person) => {
-        //         return person.name.indexOf(params.s) !== -1;
-        //     }));
-        // }
-
-        // return results;
     }
 }
 
