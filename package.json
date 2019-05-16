@@ -1,0 +1,23 @@
+{
+  "name": "avengers-api",
+  "version": "1.0.0",
+  "description": "An API to call a list of Avengers heroes and villians",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjclark13/avengers-api.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "BJ Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjclark13/avengers-api/issues"
+  },
+  "homepage": "https://github.com/bjclark13/avengers-api#readme"
+}
