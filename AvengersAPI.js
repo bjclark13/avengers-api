@@ -15,7 +15,7 @@ class AvengersAPI {
 		/*
 		* { type: 'hero' }
 		*/
-		let result = [{name:'BJ'}];
+		let result = [];
 		
 		if ( params.name ) {
 			let namesResult = this.heroes_and_villians.filter( (hero) => {
